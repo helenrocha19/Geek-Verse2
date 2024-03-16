@@ -1,0 +1,142 @@
+#titulo{
+  color: white;
+  text-align: center;
+}
+a {
+  color: white;
+}
+
+#withe{
+  color: white;
+}
+a:hover {
+  color: purple;
+  transition: 0.3s all;
+}
+
+h2:hover{
+  color: black;
+}
+#abrirNoticia{
+  color: white;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+  color: white;
+  font-size: 35px;
+}
+
+li:hover{
+  color: #FF0000;
+}
+
+
+.noticia-conteudo h2{
+    text-align: center;
+} 
+
+.noticia-1 {
+  position: relative;
+  height: 1110px;
+  width: 1540px;
+  margin: 15px 150px ;
+  align-items: center;
+  background-image: url("/img/harry-potter.jpg");
+  background-size: cover;
+  background-position: top;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#p{
+  color: white;
+}
+
+.noticia-2 {
+  position: relative;
+  height: 1110px;
+  width: 1540px;
+  margin: 15px 150px;
+  align-items: center;
+  background-image: url("/img/marvel.jpg");
+  background-size: cover;
+  background-position: top;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.noticia-3 {
+  position: relative;
+  height: 1110px;
+  width: 1540px;
+  margin: 15px 150px;
+  align-items: center;
+  background-image: url("/img/matrix.jpg");
+  background-size: cover;
+  background-position: top;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.noticia-4 {
+  position: relative;
+  height: 1110px;
+  width: 1540px;
+  margin: 15px 150px;
+  align-items: center;
+  background-image: url("/img/Studio-ghibli.jpg");
+  background-size: cover;
+  background-position: top;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+  align-items: center;
+}
+
+button{
+  border: transparent;
+  background-color: transparent
+}
+
+
+@media screen and (max-width: 760px) {
+  header {
+    flex-direction: column;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  form {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  input {
+    align-items: center;
+  }
+
+  img {
+    display: none;
+  }
+
+  ul {
+    text-align: center;
+  }
+}
+
+
+body {
+  background-color: white;
+  background-image: url(/img/plano-de-fundo.gif);
+}
